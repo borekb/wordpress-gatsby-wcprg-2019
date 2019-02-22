@@ -1,0 +1,8 @@
+{
+  "name": "@borekb/wordpress-gatsby-talk",
+  "version": "1.0.0",
+  "description": "WordCamp 2019 Prague – talk about WordPress & Gatsby",
+  "author": "Borek Bernard",
+  "license": "UNLICENSED",
+  "scripts": {}
+}

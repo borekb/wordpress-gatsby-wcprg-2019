@@ -1,0 +1,32 @@
+version: '3.6'
+services:
+
+  wordpress:
+    image: versionpress/wordpress:php7.2-apache
+    ports:
+      - "80:80"
+    volumes:
+      - ./versionpress:/var/www/html/wp-content/plugins/versionpress
+      - ./wordpress:/var/www/html
+    links:
+      - mysql
+      - adminer
+    environment:
+      WORDPRESS_DB_PASSWORD: r00tpwd
+
+  mysql:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql:z
+    environment:
+      MYSQL_ROOT_PASSWORD: r00tpwd
+
+  adminer:
+    image: adminer
+    ports:
+      - "8099:8080"
+
+volumes:
+  db_data:
