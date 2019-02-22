@@ -1,0 +1,14 @@
+{
+  "name": "gatsby",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.1.17",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "scripts": {
+    "start": "gatsby develop"
+  }
+}
