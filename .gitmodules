@@ -1,0 +1,3 @@
+[submodule "wordpress"]
+	path = wordpress
+	url = https://github.com/borekb/wordpress-gatsby-wcprg-2019-wp.git
