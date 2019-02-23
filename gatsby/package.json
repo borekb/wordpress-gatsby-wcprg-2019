@@ -9,6 +9,7 @@
     "react-dom": "^16.8.3"
   },
   "scripts": {
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "build": "gatsby build"
   }
 }
