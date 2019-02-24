@@ -2,6 +2,9 @@
 
 Slides and demo project for WordCamp Prague 2019 talk "WordPress + Gatsby".
 
+- [SlideShare](https://www.slideshare.net/borekb/wordpress-gatsby)
+- Other attachments: [#1](https://github.com/borekb/wordpress-gatsby-wcprg-2019/issues/1)
+
 ## Setup
 
 > ⚠️ It's not very polished yet, for example, there are some weird issue when trying to combine Gatsby.js and Reveal.js, it barely works :) I also didn't verify that restoring WP site works exactly as described below, feel free to send PRs.
@@ -41,6 +44,8 @@ docker run -it --rm \
         --siteurl='http://wp.demo/' \
         --require=wp-content/plugins/versionpress/src/Cli/vp.php
 ```
+
+If this doesn't work, [#1](https://github.com/borekb/wordpress-gatsby-wcprg-2019/issues/1) contains WordPress export file which you can use to import a post.
 
 Now, WordPress is running and we can proceed to Gatsby:
 
